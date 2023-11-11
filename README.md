@@ -337,6 +337,13 @@ by cloning this repository into your package path, like this:
 $ git clone https://github.com/puremourning/vimspector ~/.vim/pack/vimspector/opt/vimspector
 ```
 
+For neovim you could use this:
+
+```shellsession
+$ git clone https://github.com/puremourning/vimspector ~/.vim/pack/vimspector/opt/vimspector
+```
+
+
 2. Configure vimspector in your `.vimrc`, for example to enable the standard
    mappings:
 
