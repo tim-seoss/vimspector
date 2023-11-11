@@ -333,8 +333,14 @@ Plugin 'puremourning/vimspector'
 If you don't use a plugin manager already, install vimspector as a Vim package
 by cloning this repository into your package path, like this:
 
-```
+```console
 $ git clone https://github.com/puremourning/vimspector ~/.vim/pack/vimspector/opt/vimspector
+```
+
+Or for Neovim:
+
+```console
+$ git clone https://github.com/puremourning/vimspector $(nvim --headless --cmd "echo stdpath('config') .. '/pack/vimspector/opt/vimspector'" +qa 2>&1)
 ```
 
 2. Configure vimspector in your `.vimrc`, for example to enable the standard
